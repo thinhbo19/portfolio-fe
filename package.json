@@ -12,20 +12,15 @@
     "@emailjs/browser": "^4.4.1",
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
-    "@material-ui/core": "^4.12.4",
     "@mui/icons-material": "^5.16.7",
     "@mui/material": "^5.16.7",
+    "@mui/styled-engine-sc": "^6.0.0-alpha.18",
     "axios": "^1.7.3",
     "next": "14.2.5",
     "react": "^18",
-    "react-alert": "^7.0.3",
-    "react-alert-template-basic": "^1.0.2",
     "react-dom": "^18",
+    "styled-components": "^6.1.12",
     "sweetalert2": "^11.12.4",
     "swiper": "^11.1.9"
-  },
-  "devDependencies": {
-    "eslint": "^8",
-    "eslint-config-next": "14.2.5"
   }
 }
