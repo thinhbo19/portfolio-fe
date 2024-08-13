@@ -9,7 +9,7 @@ import {
   DialogActions,
   TextField,
   FormControl,
-} from "@material-ui/core";
+} from "@mui/material";
 import axios from "axios";
 
 const ReviewForm = ({ open, handleClose, fetchData }) => {
