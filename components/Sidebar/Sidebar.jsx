@@ -12,6 +12,8 @@ import LayersIcon from "@mui/icons-material/Layers";
 import ChatBubbleIcon from "@mui/icons-material/ChatBubble";
 import EditNoteIcon from "@mui/icons-material/EditNote";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
+import CloseIcon from "@mui/icons-material/Close";
+import MenuIcon from "@mui/icons-material/Menu";
 
 const Sidebar = () => {
   const [isToggle, showMenu] = useState(false);
@@ -85,7 +87,11 @@ const Sidebar = () => {
         className={isToggle ? "nav__toggle nav__toggle-open" : "nav__toggle"}
         onClick={() => showMenu(!isToggle)}
       >
-        <i className={isToggle ? "icon-close" : "icon-menu"}></i>
+        {isToggle ? (
+          <CloseIcon className="icon-close" />
+        ) : (
+          <MenuIcon className="icon-menu" />
+        )}
       </div>
     </>
   );
