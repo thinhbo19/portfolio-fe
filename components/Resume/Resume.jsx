@@ -1,7 +1,6 @@
 import React from "react";
 import "../../Styles/Resume.css";
-import Data from "./Data";
-import Card from "./Card";
+import SchoolIcon from "@mui/icons-material/School";
 
 const Resume = () => {
   return (
@@ -10,38 +9,49 @@ const Resume = () => {
 
       <div className="resume__container grid">
         <div className="timeline grid">
-          {Data.map((val, id) => {
-            if (val.category === "education") {
-              return (
-                <Card
-                  key={id}
-                  icon={val.icon}
-                  title={val.title}
-                  year={val.year}
-                  desc={val.desc}
-                />
-              );
-            }
-            return null;
-          })}
+          <div className="timeline__item">
+            <SchoolIcon
+              className="icon-graduation"
+              sx={{ width: 30, height: 30 }}
+            />
+            <span className="timeline__date">2021 - present</span>
+            <h3 className="timeline__title">
+              Ho Chi Minh City University of Education
+            </h3>
+            <p className="timeline__text">
+              K47 student majoring in information technology - majoring in
+              software technology
+            </p>
+          </div>
+          <div className="timeline__item">
+            <SchoolIcon
+              className="icon-graduation"
+              sx={{ width: 30, height: 30 }}
+            />
+            <span className="timeline__date">2021 - present</span>
+            <h3 className="timeline__title">
+              Ho Chi Minh City University of Education
+            </h3>
+            <p className="timeline__text">
+              K47 student majoring in information technology - majoring in
+              software technology
+            </p>
+          </div>
+          <div className="timeline__item">
+            <SchoolIcon
+              className="icon-graduation"
+              sx={{ width: 30, height: 30 }}
+            />
+            <span className="timeline__date">2021 - present</span>
+            <h3 className="timeline__title">
+              Ho Chi Minh City University of Education
+            </h3>
+            <p className="timeline__text">
+              K47 student majoring in information technology - majoring in
+              software technology
+            </p>
+          </div>
         </div>
-
-        {/* <div className="timeline grid">
-          {Data.map((val, ind) => {
-            if (val.category === "experience") {
-              return (
-                <Card
-                  key={ind}
-                  icon={val.icon}
-                  title={val.title}
-                  year={val.year}
-                  desc={val.desc}
-                />
-              );
-            }
-            return null;
-          })}
-        </div> */}
       </div>
     </section>
   );

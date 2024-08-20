@@ -4,6 +4,7 @@ import AboutImg from "../../assets/avatar-2.jpg";
 import AboutBox from "./AboutBox";
 import CVimg from "../../assets/CV2024-HoNgocHungThinh-47.01.CNTT.C.png";
 import "../../Styles/About.css";
+import Image from "next/image";
 
 const About = () => {
   const downloadCV = () => {
@@ -21,7 +22,7 @@ const About = () => {
       <h2 className="section_title">About Me</h2>
 
       <div className="about__container grid">
-        <img src={AboutImg} alt="" className="about__img" />
+        <Image src={AboutImg} alt="" className="about__img" />
 
         <div className="about__data grid">
           <div className="about__info">

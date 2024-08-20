@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import "../../Styles/Portfolio.css";
 import Menu from "./Menu";
 import Link from "next/link";
+import Image from "next/image";
 
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
@@ -41,7 +42,7 @@ const Portfolio = () => {
           return (
             <div className="work__card" key={id}>
               <div className="work__thumbnail">
-                <img src={image} alt="" className="work__img" />
+                <Image src={image} alt="" className="work__img" />
                 <div className="work__mask"></div>
               </div>
               <span className="work__category">{category}</span>

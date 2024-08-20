@@ -1,10 +1,11 @@
 import React from "react";
+import LocalFireDepartmentIcon from "@mui/icons-material/LocalFireDepartment";
 
 const AboutBox = () => {
   return (
     <div className="about__boxes grid">
       <div className="about__box">
-        <i className="about__icon icon-fire"></i>
+        <LocalFireDepartmentIcon className="about__icon icon-fire" />
 
         <div>
           <h3 className="about__title">10</h3>
@@ -13,7 +14,7 @@ const AboutBox = () => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-fire"></i>
+        <LocalFireDepartmentIcon className="about__icon icon-fire" />
 
         <div>
           <h3 className="about__title">10</h3>
@@ -22,7 +23,7 @@ const AboutBox = () => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-fire"></i>
+        <LocalFireDepartmentIcon className="about__icon icon-fire" />
 
         <div>
           <h3 className="about__title">10</h3>
@@ -31,7 +32,7 @@ const AboutBox = () => {
       </div>
 
       <div className="about__box">
-        <i className="about__icon icon-fire"></i>
+        <LocalFireDepartmentIcon className="about__icon icon-fire" />
 
         <div>
           <h3 className="about__title">102</h3>

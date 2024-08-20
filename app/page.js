@@ -20,7 +20,7 @@ export default function Page() {
         <Services />
         <Resume />
         <Portfolio />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <Blog />
         <Contact />
       </main>
