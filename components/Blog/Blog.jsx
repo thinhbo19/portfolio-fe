@@ -6,10 +6,13 @@ import Image1 from "../../assets/blog-1.svg";
 import Image2 from "../../assets/blog-2.svg";
 import Image3 from "../../assets/blog-3.svg";
 import Link from "next/link";
+import Shapes from "../Shapes";
 
 const Blog = () => {
   return (
-    <section className="blog container section" id="Blog">
+    <section className="blog container section relative" id="Blog">
+      <Shapes />
+
       <h2 className="section_title">Latest Posts</h2>
 
       <div className="blog__container grid">

@@ -2,6 +2,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import "../../Styles/Contact.css";
+import Shapes from "../Shapes";
 
 const Contact = () => {
   const form = useRef();
@@ -39,7 +40,9 @@ const Contact = () => {
   };
 
   return (
-    <section className="contact container section" id="Contact">
+    <section className="contact container section relative" id="Contact">
+      <Shapes />
+
       <h2 className="section_title">Get In Touch</h2>
 
       <div className="contact__container grid">

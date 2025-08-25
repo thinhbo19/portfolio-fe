@@ -4,6 +4,7 @@ import Image1 from "../../assets/service-1.svg";
 import Image2 from "../../assets/service-2.svg";
 import Image3 from "../../assets/service-3.svg";
 import Image from "next/image";
+import Shapes from "../Shapes";
 
 const data = [
   {
@@ -31,7 +32,8 @@ const data = [
 
 const Services = () => {
   return (
-    <section className="services container section" id="Services">
+    <section className="services container section relative" id="Services">
+      <Shapes />
       <h2 className="section_title">Sevices</h2>{" "}
       <div className="services__container grid">
         {data.map(({ id, image, title, description }) => {

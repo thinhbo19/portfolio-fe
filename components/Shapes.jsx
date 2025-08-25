@@ -6,7 +6,7 @@ const Shapes = () => {
       <svg
         width="27"
         height="29"
-        className="shape s1"
+        className="shape s1 floating"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -19,7 +19,7 @@ const Shapes = () => {
       <svg
         width="26"
         height="26"
-        className="shape s2"
+        className="shape s2 rotating"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -34,7 +34,7 @@ const Shapes = () => {
       <svg
         width="30"
         height="25"
-        className="shape s3"
+        className="shape s3 bouncing"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -47,7 +47,7 @@ const Shapes = () => {
       <svg
         width="15"
         height="23"
-        className="shape s4"
+        className="shape s4 floating-delayed"
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect
@@ -64,7 +64,7 @@ const Shapes = () => {
       <svg
         width="15"
         height="23"
-        className="shape s5"
+        className="shape s5 rotating-reverse"
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect
@@ -81,7 +81,7 @@ const Shapes = () => {
       <svg
         width="49"
         height="17"
-        className="shape s6"
+        className="shape s6 pulse"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g fill="#FF4C60" fillRule="evenodd">
@@ -93,7 +93,7 @@ const Shapes = () => {
       <svg
         width="26"
         height="26"
-        className="shape s7"
+        className="shape s7 floating-slow"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -108,7 +108,7 @@ const Shapes = () => {
       <svg
         width="19"
         height="21"
-        className="shape s8"
+        className="shape s8 rotating-fast"
         xmlns="http://www.w3.org/2000/svg"
       >
         <rect
@@ -125,7 +125,7 @@ const Shapes = () => {
       <svg
         width="30"
         height="25"
-        className="shape s9"
+        className="shape s9 bouncing-delayed"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -138,7 +138,7 @@ const Shapes = () => {
       <svg
         width="47"
         height="29"
-        className="shape s10"
+        className="shape s10 wave"
         xmlns="http://www.w3.org/2000/svg"
       >
         <g fill="#44D7B6" fillRule="evenodd">
@@ -150,7 +150,7 @@ const Shapes = () => {
       <svg
         width="33"
         height="20"
-        className="shape s11"
+        className="shape s11 floating-fast"
         xmlns="http://www.w3.org/2000/svg"
       >
         <path
@@ -161,7 +161,7 @@ const Shapes = () => {
       </svg>
 
       <svg
-        className="shape s12"
+        className="shape s12 shake"
         version="1.1"
         id="Layer_1"
         x="0px"
@@ -216,7 +216,7 @@ const Shapes = () => {
         </g>
       </svg>
       <svg
-        className="shape s13"
+        className="shape s13 pulse-delayed"
         version="1.1"
         id="Layer_1"
         x="0px"
@@ -271,7 +271,7 @@ const Shapes = () => {
         </g>
       </svg>
       <svg
-        className="shape s14"
+        className="shape s14 wave-delayed"
         version="1.1"
         id="Layer_1"
         x="0px"

@@ -4,6 +4,7 @@ import "../../Styles/Portfolio.css";
 import Menu from "./Menu";
 import Link from "next/link";
 import Image from "next/image";
+import Shapes from "../Shapes";
 
 const Portfolio = () => {
   const [items, setItems] = useState(Menu);
@@ -15,7 +16,9 @@ const Portfolio = () => {
   };
 
   return (
-    <section className="work container section" id="Portfolio">
+    <section className="work container section relative" id="Portfolio">
+      <Shapes />
+
       <h2 className="section_title">Recent Works</h2>
 
       <div className="work__filters">

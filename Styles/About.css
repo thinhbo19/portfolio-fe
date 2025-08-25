@@ -1,3 +1,7 @@
+.about {
+  position: relative;
+}
+
 .about__container {
   grid-template-columns: 3fr 9fr;
   column-gap: 1.875rem;
@@ -90,6 +94,19 @@
   background-color: rgb(255, 209, 92);
 }
 
+.react {
+  width: 85%;
+  background-color: rgb(97, 218, 251);
+}
+.nextjs {
+  width: 80%;
+  background-color: rgb(0, 0, 0);
+}
+.angular {
+  width: 75%;
+  background-color: rgb(221, 0, 49);
+}
+
 .about__boxes {
   grid-template-columns: repeat(4, 1fr);
   column-gap: 1.875rem;
@@ -98,11 +115,82 @@
 .about__box {
   display: flex;
   column-gap: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.about__box:hover {
+  transform: translateY(-10px) scale(1.05);
 }
 
 .about__icon {
   font-size: var(--h1-font-size);
   color: #cecece;
+  transition: all 0.3s ease;
+}
+
+.about__box:hover .about__icon {
+  color: var(--first-color);
+  transform: scale(1.2) rotate(10deg);
+}
+
+/* Icon-specific animations */
+.icon-work {
+  animation: icon-bounce 2s ease-in-out infinite;
+}
+
+.icon-code {
+  animation: icon-rotate 3s linear infinite;
+}
+
+.icon-school {
+  animation: icon-pulse 2.5s ease-in-out infinite;
+}
+
+.icon-fire {
+  animation: icon-flame 1.5s ease-in-out infinite;
+}
+
+/* Icon animation keyframes */
+@keyframes icon-bounce {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+@keyframes icon-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes icon-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+@keyframes icon-flame {
+  0%,
+  100% {
+    transform: scale(1) rotate(0deg);
+  }
+  25% {
+    transform: scale(1.1) rotate(5deg);
+  }
+  75% {
+    transform: scale(1.05) rotate(-5deg);
+  }
 }
 
 .about__title {

@@ -5,7 +5,7 @@ import "../../Styles/Home.css";
 import Me from "../../assets/avatar-1.jpg";
 import HeaderSocials from "./HeaderSocials";
 import ScrollDown from "./ScrollDown";
-import Shapes from "./Shapes";
+import Shapes from "../Shapes";
 import Image from "next/image";
 
 const Home = () => {
