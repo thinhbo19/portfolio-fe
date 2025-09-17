@@ -6,7 +6,7 @@ import Shapes from "../Shapes";
 const Resume = () => {
   return (
     <section className="resume container section relative" id="Resume">
-      <Shapes />
+      {/* <Shapes /> */}
 
       <h2 className="section_title">Resume</h2>
 
@@ -20,9 +20,12 @@ const Resume = () => {
             <li class="w-4 h-1 rounded-lg bg-[#00a68e]"></li>
           </ul>
         </div>
-        <div class="grid gap-16 md:block">
-          <div class="flex flex-col md:grid grid-cols-12 md:items-center group odd:flex-col-reverse gap-6 md:gap-0">
-            <div class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-6 rounded-lg group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 my-6">
+        <div style={{ marginTop: "16px" }} class="grid md:block">
+          <div class="flex flex-col md:grid grid-cols-12 md:items-center group odd:flex-col-reverse  md:gap-0">
+            <div
+              style={{ padding: "16px" }}
+              class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-16 rounded-lg bg-[#00a68e] text-white transition duration-300"
+            >
               <p class="line-clamp-6 leading-relaxed">
                 Currently working as a Frontend Developer at CAS Technology
                 Solutions Company Limited. Responsible for developing and
@@ -33,7 +36,7 @@ const Resume = () => {
             </div>
             <div class="col-span-2 h-full md:flex items-center justify-center relative hidden">
               <span class="w-0.5 h-full bg-[#00a68e] inline-block absolute top-0"></span>
-              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl text-[#00a68e] bg-white  group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 z-10">
+              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl bg-[#00a68e] text-white transition duration-300 z-10">
                 01
               </p>
             </div>
@@ -59,11 +62,14 @@ const Resume = () => {
             </div>
             <div class="col-span-2 h-full md:flex items-center justify-center relative hidden">
               <span class="w-0.5 h-full bg-[#00a68e] inline-block absolute top-0"></span>
-              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl text-[#00a68e] bg-white  group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 z-10">
+              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl bg-[#00a68e] text-white transition duration-300 z-10">
                 02
               </p>
             </div>
-            <div class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-6 rounded-lg group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 my-6">
+            <div
+              style={{ padding: "16px" }}
+              class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-16 rounded-lg bg-[#00a68e] text-white transition duration-300 my-6"
+            >
               <p class="line-clamp-6 leading-relaxed">
                 Completed internship as Frontend Developer at CAS Technology
                 Solutions Company Limited. Gained hands-on experience in web
@@ -74,7 +80,10 @@ const Resume = () => {
           </div>
         </div>
 
-        <div class="grid justify-center text-center pb-16 pt-20">
+        <div
+          style={{ marginTop: "16px" }}
+          class="grid justify-center text-center pb-16 pt-20"
+        >
           <h2 class="text-xl font-medium text-[#00a68e] pb-4">Education</h2>
           <h3 class="text-3xl font-medium pb-8">Academic Background</h3>
           <ul class="flex justify-center gap-3 pb-12">
@@ -85,7 +94,10 @@ const Resume = () => {
         </div>
         <div class="grid gap-16 md:block">
           <div class="flex flex-col md:grid grid-cols-12 md:items-center group odd:flex-col-reverse gap-6 md:gap-0">
-            <div class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-6 rounded-lg group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 my-6">
+            <div
+              style={{ padding: "16px" }}
+              class="col-span-5 shadow-[4px_4px_18px_0px_#ddd] p-16 rounded-lg bg-[#00a68e] text-white transition duration-300 my-6"
+            >
               <p class="line-clamp-6 leading-relaxed">
                 Graduated from Ho Chi Minh City University of Education with a
                 Bachelor's degree in Software Engineering, specializing in
@@ -96,7 +108,7 @@ const Resume = () => {
             </div>
             <div class="col-span-2 h-full md:flex items-center justify-center relative hidden">
               <span class="w-0.5 h-full bg-[#00a68e] inline-block absolute top-0"></span>
-              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl text-[#00a68e] bg-white  group-hover:bg-[#00a68e] group-hover:text-white transition duration-300 z-10">
+              <p class="w-16 h-16 flex justify-center items-center rounded-full border-2 border-[#00a68e] text-xl bg-[#00a68e] text-white transition duration-300 z-10">
                 01
               </p>
             </div>
